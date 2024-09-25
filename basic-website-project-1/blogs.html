@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <!--main header-->
+    <header class="main-header">
+        <!--logo holder-->
+        <div class="logo-holder">
+            <a href="#">
+                <img src="img/Colors - Brave 12-09-2024 16_02_08.png" width="120px" length="120px" alt="BLOG">
+            </a>        
+        </div>
+        <!--logo holder-->
+        <!--search holder-->
+        <div class="search-holder">
+            <form action="" method="get">
+                <input type="search" name="s" placeholder="search for..">
+                <button type="submit">search</button>
+            </form>
+        </div>
+    </header>
+    <!--main menu-->
+    <nav class="main-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a>
+            <ul class="drop">
+               <li><a href="#">Blog 1</a></li>
+               <li><a href="#">Blog 2</a></li>
+               <li><a href="#">Blog 3</a></li>
+            </ul></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!--main-menu-->
+    
+    <!--blogs holder-->
+    <section class="blogs-holder">
+        <article class="blog">
+            <h3>blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog">
+            <h3>blog 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog">
+            <h3>blog 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog">
+            <h3>blog 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog">
+            <h3>blog 5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog">
+            <h3>blog 6</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, accusantium, itaque nesciunt poss </p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+    <!--footer widgets-->
+    <section class="footer-widget-holder">
+        <div class="footer-widget">
+            <a href="#">
+                <img src="img/Colors - Brave 12-09-2024 16_02_08.png"  width="120px" length="120px" alt="BLOG">
+            </a>
+            <h3>Address</h3>
+            <address>
+                RAJAJINAGAR,BANGALORE-560010
+            </address>
+        </div>
+        <div class="footer-widget">
+          <h4>Sitemap</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+    </section>
+    <!--footer widgets-->
+    <!--site footer-->
+    <footer class="site-footer">
+        <P><small>Copyright &copy; 2025</small></P>
+    </footer>
+    <!--site footer-->
+</div> 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+</script>
+</body>
+</html>

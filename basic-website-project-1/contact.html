@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <!--main header-->
+    <header class="main-header">
+        <!--logo holder-->
+        <div class="logo-holder">
+            <a href="#">
+                <img src="img/Colors - Brave 12-09-2024 16_02_08.png" width="120px" length="120px" alt="BLOG">
+            </a>        
+        </div>
+        <!--logo holder-->
+        <!--search holder-->
+        <div class="search-holder">
+            <form action="" method="get">
+                <input type="search" name="s" placeholder="search for..">
+                <button type="submit">search</button>
+            </form>
+        </div>
+    </header>
+    <!--main menu-->
+    <nav class="main-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a>
+            <ul class="drop">
+               <li><a href="#">Blog 1</a></li>
+               <li><a href="#">Blog 2</a></li>
+               <li><a href="#">Blog 3</a></li>
+            </ul></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!--main-menu-->
+   <!--map-->
+   <section class="gmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.745073942914!2d77.55745807522895!3d12.988150214514908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3df532d15619%3A0x409bdd1907dfbf55!2sSuguna%20Hospital!5e0!3m2!1sen!2sin!4v1726144784350!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+   <!--map-->
+    <!--contact details-->
+    <section class="contact-details">
+        <div class="contact-form">
+            <form action="" method="post">
+                <label for "c_name">
+                Name:
+                <input type="text" name="c_name" id="c_name" placeholder="name">
+                </label>
+                <label for "c_email">
+                    Email:
+                    <input type="email" name="c_email" id="c_email" placeholder="email">
+                </label>
+                <label for "c_phone">
+                     Phone No:
+                    <input type="tel" name="c_phone" id="c_phone" placeholder="phone">
+                </label>
+                <label for "c_message">
+                     Message:
+                    <textarea name="c_message" id="c_message" placeholder="message"></textarea>
+                </label>
+                <button type="submit">Send Message</button>    
+            </form>
+        </div>
+        <div class="time-contact">
+            \<h3>
+                Timings
+            </h3>
+        <P><strong> Mon-Sat </strong><time datetime="9:00">9:00AM</time>-<time datetime="17:00">05:00PM</time></P>
+    <hr>
+    <h3>Contact</h3>
+    <P><a href="pranavvp1507@gmail.com">pranavvp1507@gmail.com</a></P>
+    </div>
+    </section>
+    <!--contact details-->
+    <!--footer widgets-->
+    <section class="footer-widget-holder">
+        <div class="footer-widget">
+            <a href="#">
+                <img src="img/Colors - Brave 12-09-2024 16_02_08.png"  width="120px" length="120px" alt="BLOG">
+            </a>
+            <h3>Address</h3>
+            <address>
+                RAJAJINAGAR,BANGALORE-560010
+            </address>
+        </div>
+        <div class="footer-widget">
+          <h4>Sitemap</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+    </section>
+    <!--footer widgets-->
+    <!--site footer-->
+    <footer class="site-footer">
+        <P><small>Copyright &copy; 2025</small></P>
+    </footer>
+    <!--site footer-->
+</div> 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+</script>
+</body>
+</html>
